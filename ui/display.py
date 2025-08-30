@@ -8,12 +8,12 @@ def show_report(df):
     try:
         # Lista de columnas requeridas segun el PDF
         required_columns = [
-            'ciudad_de_ubicaci_n',
+            'ciudad_municipio_nom',
             'departamento_nom',
             'edad',
-            'fuente_o_tipo_de_contagio',
+            'fuente_tipo_contagio',
             'estado',
-            'pa_s_de_procedencia'
+            'ubicacion'
         ]
         
         reporte_filtrado = df[required_columns]
