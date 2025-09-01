@@ -1,7 +1,12 @@
+# This module serves as the main entry point for the COVID-19 Colombia data consultant application.
 from ui.display import get_user_input, show_report
 from api.client import get_department_data
 
 def main():
+    """
+    Main function that runs the COVID-19 Colombia data consultant application.
+    Handles user interaction loop, data retrieval, and error management.
+    """
     print("--- Bienvenido al consultor de datos COVID-19 de Colombia ---")
     
     continuar = 'S'
